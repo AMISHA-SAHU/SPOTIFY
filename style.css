@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+body{
+    background-color: rgb(226, 202, 171);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Fuzzy Bubbles', cursive;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:65px;
+    background-color: black;
+    color:white;
+}
+nav ul li{
+   
+    padding: 0 12px;
+
+}
+.brand img{
+     width: 60px;
+     padding: 0 0px;
+
+
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.container{
+    min-height: 75vh;
+}
+.bottom {
+  position: sticky;
+   bottom: 0px;
+  height: 100px;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#myProgressBar{
+    width: 80vw;
+ 
+}
